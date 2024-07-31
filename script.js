@@ -61,7 +61,7 @@ const itens = [
   },
   {
     nome: "Guarda Roupa Casal",
-    preco: "R$ 999,99",
+    preco: "R$ 899,99",
     imagem: "https://imgs.casasbahia.com.br/1555638380/3xg.jpg",
     patrocinador: ""
   },
@@ -337,7 +337,7 @@ const itens = [
   },
   {
     nome: "Chaleira",
-    preco: "R$ 45,14",
+    preco: "R$ 45,00",
     imagem: "https://m.media-amazon.com/images/I/51y2bSYzy4L._AC_SL1000_.jpg",
     patrocinador: ""
   },
