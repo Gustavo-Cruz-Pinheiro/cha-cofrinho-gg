@@ -287,4 +287,8 @@ form select {
         width: 50%;
         font-size: 8pt;
     }
+
+    .sort {
+        min-width: 30px;
+    }
 }
