@@ -413,6 +413,12 @@ function renderItens(filteredItems) {
 document.addEventListener('DOMContentLoaded', () => {
   const container = document.getElementById('itens-container');
   const searchBar = document.getElementById('search-bar');
+  const sortNameAsc = document.getElementById('sort-name-asc');
+  const sortNameDesc = document.getElementById('sort-name-desc');
+  const sortPriceAsc = document.getElementById('sort-price-asc');
+  const sortPriceDesc = document.getElementById('sort-price-desc');
+  const toggleUnavailable = document.getElementById('toggle-unavailable');
+  let showUnavailable = true;
 
   if (container) {
     renderItens(itens); // Renderiza os itens ao carregar a página
@@ -420,6 +426,32 @@ document.addEventListener('DOMContentLoaded', () => {
     searchBar.addEventListener('input', () => {
       const searchTerm = searchBar.value.toLowerCase();
       const filteredItems = itens.filter(item => item.nome.toLowerCase().includes(searchTerm));
+      renderItens(filteredItems);
+    });
+
+    sortNameAsc.addEventListener('click', () => {
+      const sortedItems = [...itens].sort((a, b) => a.nome.localeCompare(b.nome));
+      renderItens(sortedItems);
+    });
+
+    sortNameDesc.addEventListener('click', () => {
+      const sortedItems = [...itens].sort((a, b) => b.nome.localeCompare(a.nome));
+      renderItens(sortedItems);
+    });
+
+    sortPriceAsc.addEventListener('click', () => {
+      const sortedItems = [...itens].sort((a, b) => parseFloat(a.preco.replace('R$', '').replace(',', '.')) - parseFloat(b.preco.replace('R$', '').replace(',', '.')));
+      renderItens(sortedItems);
+    });
+
+    sortPriceDesc.addEventListener('click', () => {
+      const sortedItems = [...itens].sort((a, b) => parseFloat(b.preco.replace('R$', '').replace(',', '.')) - parseFloat(a.preco.replace('R$', '').replace(',', '.')));
+      renderItens(sortedItems);
+    });
+
+    toggleUnavailable.addEventListener('click', () => {
+      showUnavailable = !showUnavailable;
+      const filteredItems = showUnavailable ? itens : itens.filter(item => !item.patrocinador);
       renderItens(filteredItems);
     });
 

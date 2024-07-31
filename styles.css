@@ -66,6 +66,20 @@ body {
     color: #aaa;
 }
 
+.filter-buttons {
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.filter-buttons button {
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
 .card {
     background-color: white;
     border-radius: 10px;
@@ -203,9 +217,6 @@ form select {
     color: #fff;
     border: none;
     cursor: pointer;
-
-
-
 }
 
 .fixed-info button i {
@@ -265,11 +276,15 @@ form select {
         width: 60%;
     }
 
-    @media screen and (max-width: 400px) {
-        .fixed-info {
-            height: 130px;
-            width: 50%;
-            font-size: 8pt;
-        }
+    #text-filters {
+        font-size: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .fixed-info {
+        height: 130px;
+        width: 50%;
+        font-size: 8pt;
     }
 }
