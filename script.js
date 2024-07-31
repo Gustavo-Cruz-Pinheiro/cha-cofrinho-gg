@@ -1,5 +1,17 @@
 const itens = [
   {
+    nome: "Jogo De Cama Lençol Casal Cinza 100% Algodão 3pçs 120 Fios",
+    preco: "R$ 57,00",
+    imagem: "https://http2.mlstatic.com/D_NQ_NP_2X_942142-MLB72051217586_102023-F.webp",
+    patrocinador: ""
+  },
+  {
+    nome: "Faqueiro",
+    preco: "R$ 37,90",
+    imagem: "https://eletroangeloni.vtexassets.com/arquivos/ids/233052-800-auto?v=637886721393000000&width=800&height=auto&aspect=true",
+    patrocinador: ""
+  },
+  {
     nome: "Jogo de Panelas Sicília Antiaderente Starflon Excellent Avelã 5 Peças",
     preco: "R$ 503,40",
     imagem: "https://eletroangeloni.vtexassets.com/arquivos/ids/216344-800-auto?v=637829506993400000&width=800&height=auto&aspect=true",
@@ -7,7 +19,7 @@ const itens = [
   },
   {
     nome: "Ventilador",
-    preco: "R$ 199,90",
+    preco: "R$ 180,90",
     imagem: "https://imgs.casasbahia.com.br/1543621153/1xg.jpg",
     patrocinador: ""
   },
@@ -42,14 +54,8 @@ const itens = [
     patrocinador: ""
   },
   {
-    nome: "Jogo De Cama Lençol Casal Cinza 100% Algodão 3pçs 120 Fios",
-    preco: "R$ 57,00",
-    imagem: "https://http2.mlstatic.com/D_NQ_NP_2X_942142-MLB72051217586_102023-F.webp",
-    patrocinador: ""
-  },
-  {
     nome: "Kit de Ferramentas Dexter",
-    preco: "R$ 529,90",
+    preco: "R$ 379,90",
     imagem: "https://cdn.leroymerlin.com.br/products/jogo_de_ferramentas_108_pecas_dexter__89716123_0001_600x600.jpg",
     patrocinador: ""
   },
@@ -69,12 +75,6 @@ const itens = [
     nome: "Panela de Arroz Elétrica",
     preco: "R$ 185,22",
     imagem: "https://a-static.mlcdn.com.br/800x560/panela-de-arroz-eletrica-10-xicaras-philco-ph10p/magazineluiza/238194200/f53362cdc3fdc79ef03131ac15200549.jpg",
-    patrocinador: ""
-  },
-  {
-    nome: "Faqueiro",
-    preco: "R$ 37,90",
-    imagem: "https://eletroangeloni.vtexassets.com/arquivos/ids/233052-800-auto?v=637886721393000000&width=800&height=auto&aspect=true",
     patrocinador: ""
   },
   {
@@ -127,7 +127,7 @@ const itens = [
   },
   {
     nome: "Kit Churrasqueiro",
-    preco: "R$ 206,72",
+    preco: "R$ 166,72",
     imagem: "https://a-static.mlcdn.com.br/800x560/kit-churrasqueiro-profissional-com-7-pecas-bergner/bellunipresentes/6300570/7767c5254a6a0f9a6da6621da02d44d4.jpeg",
     patrocinador: ""
   },
@@ -145,7 +145,7 @@ const itens = [
   },
   {
     nome: "Prateleira",
-    preco: "R$ 82,90",
+    preco: "R$ 62,90",
     imagem: "https://cdn.leroymerlin.com.br/products/prateleira_borda_reta_suporte_embutido_madeira_branco_60x14x3cm_spaceo_89104946_2f1a_600x600.jpg",
     patrocinador: ""
   },
@@ -181,7 +181,7 @@ const itens = [
   },
   {
     nome: "Aparelho De Jantar Biona",
-    preco: "R$ 299,90",
+    preco: "R$ 199,90",
     imagem: "https://www.havan.com.br/media/catalog/product/cache/820af7facfa7aca6eb3c138e3457dc8d/a/p/aparelho-de-jantar-biona-by-havan-casa-20-pecas_885240.webp",
     patrocinador: ""
   },
@@ -259,7 +259,7 @@ const itens = [
   },
   {
     nome: "Cadeira De Escritório",
-    preco: "R$ 319,00",
+    preco: "R$ 250,00",
     imagem: "https://abracasa.vteximg.com.br/arquivos/ids/173909/cadeira-de-escritorio-chicago-alta-giratoria-preto-diagonal.jpg?v=637648011630770000",
     patrocinador: ""
   },
@@ -313,7 +313,7 @@ const itens = [
   },
   {
     nome: "Sofá",
-    preco: "R$ 889,90",
+    preco: "R$ 599,99",
     imagem: "https://images.tcdn.com.br/img/img_prod/839866/sofa_retratil_e_reclinavel_3_lugares_com_molas_1_80m_livia_suede_cinza_adonai_estofados_1941_4_15ac3332b883b7b8076e7b02f54cb46c.jpg",
     patrocinador: ""
   },
