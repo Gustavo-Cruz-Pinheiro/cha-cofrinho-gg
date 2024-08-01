@@ -412,7 +412,7 @@ function renderItens(filteredItems) {
 
     for (let card of cardItens) {
       card.addEventListener('click', () => {
-        navigator.clipboard.writeText("Agora faça o PIX para a chave (67)99861-6915 referente ao valor desse item que você clicou!")
+        navigator.clipboard.writeText("(67) 99861-6915")
           .then(() => {
             alert('Agora faça o PIX para a chave (67)99861-6915 referente ao valor desse item que você clicou!');
           })
