@@ -210,7 +210,7 @@ const itens = [
     patrocinador: ""
   },
   {
-    nome: "1 mês academia",
+    nome: "Mês academia",
     preco: "R$ 130,00",
     imagem: "https://saude.sesisc.org.br/wp-content/uploads/sites/13/2023/09/Beneficios-de-fazer-academia-Para-sua-saude-e-seu-corpo-1536x1024.jpg",
     patrocinador: ""
