@@ -407,6 +407,20 @@ function renderItens(filteredItems) {
       const card = createCard(item);
       container.appendChild(card);
     });
+
+    const cardItens = document.getElementsByClassName('card');
+
+    for (let card of cardItens) {
+      card.addEventListener('click', () => {
+        navigator.clipboard.writeText("Agora faça o PIX para a chave (67)99861-6915 referente ao valor desse item que você clicou!")
+          .then(() => {
+            alert('Agora faça o PIX para a chave (67)99861-6915 referente ao valor desse item que você clicou!');
+          })
+          .catch(err => {
+            console.error('Erro ao mostrar instruções:', err);
+          });
+      });
+    }
   }
 }
 
@@ -469,20 +483,5 @@ document.addEventListener('DOMContentLoaded', () => {
           alert('Erro ao copiar telefone. Verifique as permissões do navegador.');
         });
     });
-
-    const cardItens = document.getElementsByClassName('card');
-
-    for (let card of cardItens) {
-      card.addEventListener('click', () => {
-        navigator.clipboard.writeText("Agora faça o PIX para a chave (67)99861-6915 referente ao valor desse item que você clicou!")
-          .then(() => {
-            alert('Agora faça o PIX para a chave (67)99861-6915 referente ao valor desse item que você clicou!');
-          })
-          .catch(err => {
-            console.error('Erro ao mostrar instruções:', err);
-            // alert('Erro ao copiar telefone. Verifique as permissões do navegador.');
-          });
-      });
-    }
   }
 });
