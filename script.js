@@ -45,7 +45,7 @@ const itens = [
     nome: "Kit Conjunto Jogo De Facas Antianderente",
     preco: "R$ 49,90",
     imagem: "https://a-static.mlcdn.com.br/800x560/kit-conjunto-jogo-de-facas-antianderente-kit-6-pecas-chef-cozinha-aco-inoxidavel-churrasco-prime/magaprimer/be0f17185d6a11ee9e7a4201ac185056/2c7317e45dad2660cf2ddb49a7bc7fe7.jpeg",
-    patrocinador: ""
+    patrocinador: "Tio Marcos"
   },
   {
     nome: "Ferro de Passar Roupa",
