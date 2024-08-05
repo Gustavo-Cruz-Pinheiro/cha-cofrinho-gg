@@ -159,7 +159,7 @@ const itens = [
     nome: "Botijão de gás (botija)",
     preco: "R$ 199,90",
     imagem: "https://a-static.mlcdn.com.br/800x560/botijao-de-gas-botija-vazio-sem-gas-13kg-p13-supergasbras/rederossi/15817528106/646ee54870bafb535f6317a8d1a1c955.jpeg",
-    patrocinador: ""
+    patrocinador: "Vó Pinheiro"
   },
   {
     nome: "Jogo de Copos",
