@@ -33,7 +33,7 @@ const itens = [
     nome: "Aspirador de Pó",
     preco: "R$ 199,00",
     imagem: "https://electrolux.vtexassets.com/arquivos/ids/225722-800-800?v=638209923921100000&width=800&height=800&aspect=true",
-    patrocinador: ""
+    patrocinador: "Rosseto"
   },
   {
     nome: "Jogo de Cama Lençol Casal 100% Algodão 3pçs 120 Fios",
