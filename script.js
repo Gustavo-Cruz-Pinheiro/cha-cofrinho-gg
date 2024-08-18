@@ -3,7 +3,7 @@ const itens = [
     nome: "Jogo De Cama Lençol Casal Cinza 100% Algodão 3pçs 120 Fios",
     preco: "R$ 57,00",
     imagem: "https://http2.mlstatic.com/D_NQ_NP_2X_942142-MLB72051217586_102023-F.webp",
-    patrocinador: ""
+    patrocinador: "Tio Marcos"
   },
   {
     nome: "Faqueiro",
