@@ -9,7 +9,7 @@ const itens = [
     nome: "Faqueiro",
     preco: "R$ 37,90",
     imagem: "https://eletroangeloni.vtexassets.com/arquivos/ids/233052-800-auto?v=637886721393000000&width=800&height=auto&aspect=true",
-    patrocinador: ""
+    patrocinador: "Lilian"
   },
   {
     nome: "Jogo de Panelas Sicília Antiaderente Starflon Excellent Avelã 5 Peças",
