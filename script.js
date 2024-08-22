@@ -261,7 +261,7 @@ const itens = [
     nome: "Cadeira De Escritório",
     preco: "R$ 250,00",
     imagem: "https://abracasa.vteximg.com.br/arquivos/ids/173909/cadeira-de-escritorio-chicago-alta-giratoria-preto-diagonal.jpg?v=637648011630770000",
-    patrocinador: ""
+    patrocinador: "Helder"
   },
   {
     nome: "Kit Tapete de Cozinha",
