@@ -185,36 +185,36 @@ const itens = [
     imagem: "https://www.havan.com.br/media/catalog/product/cache/820af7facfa7aca6eb3c138e3457dc8d/a/p/aparelho-de-jantar-biona-by-havan-casa-20-pecas_885240.webp",
     patrocinador: "Ana Rosseto"
   },
-  {
-    nome: "Gift Card Digital Netflix",
-    preco: "R$ 150,00",
-    imagem: "https://images-americanas.b2w.io/produtos/4052476844/imagens/gift-card-digital-netflix-r-150-00/4052476844_1_xlarge.jpg",
-    patrocinador: ""
-  },
+  // {
+  //   nome: "Gift Card Digital Netflix",
+  //   preco: "R$ 150,00",
+  //   imagem: "https://images-americanas.b2w.io/produtos/4052476844/imagens/gift-card-digital-netflix-r-150-00/4052476844_1_xlarge.jpg",
+  //   patrocinador: ""
+  // },
   {
     nome: "Jogo Com 6 Taças De Sobremesa",
     preco: "R$ 64,99",
     imagem: "https://images.tcdn.com.br/img/img_prod/715985/jogo_de_tacas_de_sobremesa_aster_em_vidro_com_6_pecas_230ml_dolce_home_36325_1_64208c8a7d066133fa90bbb2d4a19809.jpg",
     patrocinador: ""
   },
-  {
-    nome: "Gift Card Digital Spotify",
-    preco: "R$ 100,00",
-    imagem: "https://images-americanas.b2w.io/produtos/4052560448/imagens/gift-card-digital-spotify-6-meses/4052560448_1_xlarge.jpg",
-    patrocinador: ""
-  },
+  // {
+  //   nome: "Gift Card Digital Spotify",
+  //   preco: "R$ 100,00",
+  //   imagem: "https://images-americanas.b2w.io/produtos/4052560448/imagens/gift-card-digital-spotify-6-meses/4052560448_1_xlarge.jpg",
+  //   patrocinador: ""
+  // },
   {
     nome: "Cortina Blackout",
     preco: "R$ 144,90",
     imagem: "https://m.media-amazon.com/images/I/71cxkoM+b7L._AC_SL1500_.jpg",
     patrocinador: ""
   },
-  {
-    nome: "Mês academia",
-    preco: "R$ 130,00",
-    imagem: "https://saude.sesisc.org.br/wp-content/uploads/sites/13/2023/09/Beneficios-de-fazer-academia-Para-sua-saude-e-seu-corpo-1536x1024.jpg",
-    patrocinador: ""
-  },
+  // {
+  //   nome: "Mês academia",
+  //   preco: "R$ 130,00",
+  //   imagem: "https://saude.sesisc.org.br/wp-content/uploads/sites/13/2023/09/Beneficios-de-fazer-academia-Para-sua-saude-e-seu-corpo-1536x1024.jpg",
+  //   patrocinador: ""
+  // },
   {
     nome: "Toalha de Mesa",
     preco: "R$ 88,90",
