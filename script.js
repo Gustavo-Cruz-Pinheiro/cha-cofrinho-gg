@@ -183,7 +183,7 @@ const itens = [
     nome: "Aparelho De Jantar Biona",
     preco: "R$ 199,90",
     imagem: "https://www.havan.com.br/media/catalog/product/cache/820af7facfa7aca6eb3c138e3457dc8d/a/p/aparelho-de-jantar-biona-by-havan-casa-20-pecas_885240.webp",
-    patrocinador: ""
+    patrocinador: "Ana Rosseto"
   },
   {
     nome: "Gift Card Digital Netflix",
