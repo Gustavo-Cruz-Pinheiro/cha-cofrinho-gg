@@ -75,7 +75,7 @@ const itens = [
     nome: "Panela de Arroz Elétrica",
     preco: "R$ 185,22",
     imagem: "https://a-static.mlcdn.com.br/800x560/panela-de-arroz-eletrica-10-xicaras-philco-ph10p/magazineluiza/238194200/f53362cdc3fdc79ef03131ac15200549.jpg",
-    patrocinador: ""
+    patrocinador: "Dr. Ivanildo"
   },
   {
     nome: "Faqueiro Tramontina",
