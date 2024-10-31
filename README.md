@@ -4,7 +4,7 @@
 
 O objetivo do projeto foi desenvolver um site para lista de presentes do chá de casa nova do casal Gustavo e Geovanna. 
 
-![Demonstração da Aplicação](./assets/demo.png)
+![Demonstração da Aplicação](./assets/demo-site.png)
 
 ## 🛠 Tecnologias
 
