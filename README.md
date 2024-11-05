@@ -23,7 +23,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 $ git clone https://github.com/Gustavo-Cruz-Pinheiro/cha-cofrinho-gg.git
 
 # Acesse a pasta do projeto no seu terminal/cmd
-$ cd desafio-card-nft
+$ cd cha-cofrinho-gg
 
 # Execute o arquivo index.html
 $ index.html
